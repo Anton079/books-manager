@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 namespace books_manager
 {
     public class Book
-
     {
-        public int _id;
+        private int _id;
         private string _modelCarte;
         private int _volumul;
         private int _pagini;
@@ -65,12 +64,12 @@ namespace books_manager
         public string BooksInfo()
         {
             string text = " ";
-            text = "Id Bool " + Id + "\n";
-            text = "Model de carte " + ModelCarte + "\n";
-            text = "Volumul cartii " + Volumul + "\n";
-            text = "Pagini " + Pagini + "\n";
-            text = "Greutatea " + Greutate + "\n";
-            text = "Disponibila " + Disponibila + "\n";
+            text += "Id Book " + Id + "\n";
+            text += "Model de carte " + ModelCarte + "\n";
+            text += "Volumul cartii " + Volumul + "\n";
+            text += "Pagini " + Pagini + "\n";
+            text += "Greutatea " + Greutate + "\n";
+            text += "Disponibila " + Disponibila + "\n";
             return text;
         }
     }
