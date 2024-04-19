@@ -1,0 +1,14 @@
+C:\mycode\oop\incapsularea\modificatori-de-acces-constructori\books-manager\books-manager\bin\Debug\net6.0\books-manager.exe
+C:\mycode\oop\incapsularea\modificatori-de-acces-constructori\books-manager\books-manager\bin\Debug\net6.0\books-manager.deps.json
+C:\mycode\oop\incapsularea\modificatori-de-acces-constructori\books-manager\books-manager\bin\Debug\net6.0\books-manager.runtimeconfig.json
+C:\mycode\oop\incapsularea\modificatori-de-acces-constructori\books-manager\books-manager\bin\Debug\net6.0\books-manager.dll
+C:\mycode\oop\incapsularea\modificatori-de-acces-constructori\books-manager\books-manager\bin\Debug\net6.0\books-manager.pdb
+C:\mycode\oop\incapsularea\modificatori-de-acces-constructori\books-manager\books-manager\obj\Debug\net6.0\books-manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\mycode\oop\incapsularea\modificatori-de-acces-constructori\books-manager\books-manager\obj\Debug\net6.0\books-manager.AssemblyInfoInputs.cache
+C:\mycode\oop\incapsularea\modificatori-de-acces-constructori\books-manager\books-manager\obj\Debug\net6.0\books-manager.AssemblyInfo.cs
+C:\mycode\oop\incapsularea\modificatori-de-acces-constructori\books-manager\books-manager\obj\Debug\net6.0\books-manager.csproj.CoreCompileInputs.cache
+C:\mycode\oop\incapsularea\modificatori-de-acces-constructori\books-manager\books-manager\obj\Debug\net6.0\books-manager.dll
+C:\mycode\oop\incapsularea\modificatori-de-acces-constructori\books-manager\books-manager\obj\Debug\net6.0\refint\books-manager.dll
+C:\mycode\oop\incapsularea\modificatori-de-acces-constructori\books-manager\books-manager\obj\Debug\net6.0\books-manager.pdb
+C:\mycode\oop\incapsularea\modificatori-de-acces-constructori\books-manager\books-manager\obj\Debug\net6.0\books-manager.genruntimeconfig.cache
+C:\mycode\oop\incapsularea\modificatori-de-acces-constructori\books-manager\books-manager\obj\Debug\net6.0\ref\books-manager.dll

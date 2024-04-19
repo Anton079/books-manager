@@ -1,7 +1,16 @@
-﻿internal class Program
+﻿using books_manager;
+using books_manager.Books;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+
+        UserService userService = new UserService();
+
+        userService.AfisareUser();
+
+        
+
     }
 }

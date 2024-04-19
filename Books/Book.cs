@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace books_manager
+namespace books_manager.Books
 {
     public class Book
     {
@@ -17,12 +17,12 @@ namespace books_manager
 
         public Book(int id, string modeleCarte, int volumul, int pagini, int greutate, bool disponibila)
         {
-            Id = id;
-            ModelCarte = modeleCarte;
-            Volumul = volumul;
-            Pagini = pagini;
-            Greutate = greutate;
-            Disponibila = disponibila;
+            _id = id;
+            _modelCarte = modeleCarte;
+            _volumul = volumul;
+            _pagini = pagini;
+            _greutate = greutate;
+            _disponibila = disponibila;
         }
 
         public int Id

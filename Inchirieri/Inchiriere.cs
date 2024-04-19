@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace books_manager
+namespace books_manager.Inchirieri
 {
     public class Inchiriere
     {
@@ -15,9 +15,9 @@ namespace books_manager
 
         public Inchiriere(int id, int idUser, int idBook)
         {
-            Id = id;
-            IdUser = idUser;
-            IdBook = idBook;
+            _id = id;
+            _idUser = idUser;
+            _idBook = idBook;
         }
 
         public int Id
