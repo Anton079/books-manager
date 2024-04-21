@@ -8,9 +8,12 @@ internal class Program
 
         UserService userService = new UserService();
 
-        userService.AfisareUser();
+        User UserTest = new User(6, "RamusAta@gmail.com", "fgerhgre", 07364363);
 
-        
+        userService.AddUser(UserTest);
+
+
+        userService.SaveData();
 
     }
 }

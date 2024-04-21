@@ -16,7 +16,7 @@ namespace books_manager
             this.LoadData();
         }
 
-        private void LoadData()
+        public void LoadData()
         {
             try
             {
@@ -36,7 +36,7 @@ namespace books_manager
             }
         }
 
-        private String GetFilePath()
+        public String GetFilePath()
         {
             string currentDirectory = Directory.GetCurrentDirectory();
 
@@ -91,11 +91,21 @@ namespace books_manager
             }
         }
 
-        public bool FindUserByUserId(int userId)
+        public bool AddUser(User user)
+        {
+            if (FindUserByUserId(user.Id) == false)
+            {
+                this._UserS.Add(user);
+                return true;
+            }
+            return false;
+        }
+
+        public bool FindUserByUserId(int user)
         {
             foreach(User x in _UserS)
             {
-                if(x.Id == userId)
+                if(x.Id == user)
                 {
                     return true;
                 }
